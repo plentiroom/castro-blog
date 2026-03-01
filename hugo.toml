@@ -1,0 +1,23 @@
+baseURL = "https://blog.253castro.com/"
+languageCode = "en-us"
+title = "253 Castro Blog"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  description = "Local tips, Castro Valley guides, and why you should book direct"
+  author = "253 Castro"
+  homeInfoParams = {Title = "Welcome to the 253 Castro Blog", Content = "Local tips, things to do, and why you should skip the hotel."}
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Book Direct"
+    url = "https://www.253castro.com"
+    weight = 2
