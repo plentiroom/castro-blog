@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* === Book Direct CTA Button === */
-a[href*="253castro.com"] {
+.post-content a[href*="253castro.com"] {
     display: inline-block;
     background-color: var(--c-blue) !important;
     color: #ffffff !important;
@@ -95,7 +95,7 @@ a[href*="253castro.com"] {
     transition: opacity 0.2s ease;
 }
 
-a[href*="253castro.com"]:hover {
+.post-content a[href*="253castro.com"]:hover {
     opacity: 0.75;
     color: #ffffff !important;
 }
