@@ -121,38 +121,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0.75rem;
 }
 
-/* === Chat Widget === */
-.chat-widget {
-    position: fixed;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    z-index: 999;
-}
-
-.chat-widget__btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: var(--c-navy);
-    color: #ffffff !important;
-    padding: 0.75rem 1.25rem;
-    border-radius: 2rem;
-    text-decoration: none !important;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 0.9rem;
-    box-shadow: 0 4px 14px rgba(5, 30, 51, 0.4);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border-bottom: none !important;
-}
-
-.chat-widget__btn:hover {
-    background-color: var(--c-blue) !important;
-    color: #ffffff !important;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(51, 122, 183, 0.5);
-}
-
 /* === Dark Mode === */
 [data-theme="dark"] body {
     background: #041424 !important;
